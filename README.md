@@ -1,7 +1,7 @@
-##How to run
+## How to run
 ruby main.rb (Lists some scenarios)
 
-###The solution consists of the following classes
+### The solution consists of the following classes
 - Product 
 - Checkout - takes in a Array of Pricing rules and applies each one of them serially and gets discount and hence returns total price.
 - PricingRules
@@ -17,8 +17,8 @@ ruby main.rb (Lists some scenarios)
 - Each of the classes are parametarized. So a 3 for 2 deal for Appple TV can be changed to 5 for 3 deal for Macbooks and so on
 - As each Pricing Rule is a different class, then additional classes can be added for new Pricing Rule. 
 
-####checkout_spec.rb is the integartion test, I have tested various scenarios
-##Things I am proud of
+#### checkout_spec.rb is the integartion test, I have tested various scenarios
+## Things I am proud of
  
 - I have written a lot of cases. 
 - I believe this is fairly extensible solution.
@@ -27,7 +27,7 @@ ruby main.rb (Lists some scenarios)
 - there is a good domain to class mapping.
 - Its extensible - The classes created can be used to apply wide variety of offers, and any new offer can be created as a new class which has to implement an apply method. 
 
-##Possible Improvements
+## Possible Improvements
 - Exception handling
 - Test with lot of Invalid products
 - More integration tests. 
